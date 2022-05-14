@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  font-family: "Bangers", sans-serif;
+  margin-top: 50px;
+  font-size: 150px;
+  color: #feca1b;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 1.5px #3761a8;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.pokemon {
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  max-width: 300px;
+  background-color: #3761a8;
+  color: white;
+
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.name {
+  font-family: "Bangers", sans-serif;
+  font-size: 50px;
+}
+
+.details {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.button {
+  height: 60px;
+  width: 200px;
+  background-color: #feca1b;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  border-style: solid;
+  border: 2px solid #3761a8;
+  border-radius: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .pokemon {
+    width: 60vh;
+    height: 300px;
+  }
+  .name {
+    font-size: 40px;
+  }
+}
